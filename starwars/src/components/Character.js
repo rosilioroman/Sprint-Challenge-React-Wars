@@ -6,9 +6,9 @@ import './StarWars.css';
 function Character(props) {
     return (
         <div className="character">
-            {props.char.name}
-            <li className="character-property">{props.char.gender}</li>
-            <li className="character-property">{props.char.eye_color}</li>
+            <div className="character-name">{props.char.name}</div>
+            <li className="character-property">Gender: {props.char.gender}</li>
+            <li className="character-property">Eye Color: {props.char.eye_color}</li>
         </div>
     );
 }
