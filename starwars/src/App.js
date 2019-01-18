@@ -29,6 +29,7 @@ class App extends Component {
       });
   };
 
+  // Create an instance of the CharacterList component and pass down the starwarsChars array found in state
   render() {
     return (
       <div className="App">
